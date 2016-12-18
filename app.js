@@ -24,7 +24,7 @@ MongoClient.connect(url, function (err, db) {
     }
 });
 
-app.listen(8081);
+app.listen(80);
 
 app.use(bodyParser.json())
 
